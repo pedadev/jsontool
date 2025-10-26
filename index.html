@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<title>Produkt JSON Tool</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<textarea id="editor" placeholder="Hier erscheinen deine Produkte…"></textarea>
+
+<div id="panel">
+    <label>Start ID:</label>
+    <input id="idStart" type="number" value="450">
+
+    <label>Start Image Nummer:</label>
+    <input id="imgStart" type="number" value="1">
+
+    <label>Kategorie:</label>
+    <select id="category">
+        <option value="shoes">Shoes</option>
+        <option value="hoodies">Hoodies</option>
+        <option value="tshirts">T-Shirts</option>
+        <option value="jackets">Jackets</option>
+        <option value="pants">Pants/Shorts</option>
+        <option value="jersey">Jersey</option>
+        <option value="accessories">Accessories</option>
+        <option value="perfume">Perfumes</option>
+        <option value="bags">Bags</option>
+        <option value="electronics">Electronics</option>
+        <option value="headwear">Headwear</option>
+        <option value="other">Other Stuff</option>
+    </select>
+
+    <input id="name" placeholder="Name">
+    <input id="price" placeholder="Preis">
+    <input id="link" placeholder="Link">
+
+    <button id="addBtn">Add</button>
+    <button id="sendWeb">Webhook senden</button>
+    <button id="resetBtn">Reset</button>
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
